@@ -1,0 +1,1 @@
+SELECT CustomerID, SUM(Freight) AS TOTALE_TRASPORTO FROM Orders GROUP BY CustomerID
